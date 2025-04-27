@@ -127,6 +127,19 @@ body {
   background: #ffb400;
   transform: translateY(-3px);
 }
+.btn {
+  display: inline-block;
+  margin: 10px 10px 0 0; /* Adds space between buttons */
+  padding: 10px 20px;
+  background-color: #007BFF; /* Nice blue color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
 
 /* Sections */
 section {
